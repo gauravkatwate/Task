@@ -1,3 +1,31 @@
-.formdetailes{
-    padding: 0px 310px !important;
+.formdetailes {
+  padding: 0px 310px !important;
+}
+
+@media body {
+  .hideform {
+    display: block !important;
+  }
+}
+
+.hideform {
+  display: none;
+}
+
+@media body {
+  .hidecard {
+    display: block !important;
+  }
+}
+
+.hidecard {
+  display: none;
+}
+
+.summerycard{
+    align-self: center;
+}
+
+.align-middle{
+    align-self: center !important;
 }
